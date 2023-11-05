@@ -62,7 +62,8 @@ public class Main {
                 }
 
                 //Camera zoom control
-                camera.zoom(+((float)GetMouseWheelMove()* 0.05f));
+                camera.zoom(+(float)GetMouseWheelMove()* 0.05f);
+
 
                 if (camera.zoom() > 3.0f){
                     camera.zoom(3.0f);
